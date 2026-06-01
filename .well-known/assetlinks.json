@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.skb.bworldstg",
+      "sha256_cert_fingerprints": [
+        "9A:30:50:AC:5F:77:8E:66:6D:83:08:51:8F:51:34:6F:07:9B:2E:35:E8:54:09:EB:8D:12:41:52:55:E7:49:E9"
+      ]
+    }
+  }
+]
