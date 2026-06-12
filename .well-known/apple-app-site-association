@@ -8,7 +8,7 @@
         ],
         "components": [
           {
-            "/": "/applink_goto/*"
+            "/": "/applink/applink_goto/*"
           }
         ]
       }
