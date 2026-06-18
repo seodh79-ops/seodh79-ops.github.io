@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="utf-8">
-<script>
-
-window.location.replace(
-"https://apps.apple.com/app/id6463710246"
-)
-
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS 유니버셜 링크 테스트 페이지</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #007aff; /* iOS Blue */
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
-
-Redirecting...
-
+    <h2>iOS Universal Links Test</h2>
+    <p>아래 버튼을 누르면 다른 도메인에서 원래 웹 서버로 유니버셜 링크가 작동하는지 테스트합니다.</p>
+    <br>
+    <a href="https://wwwstg.bworld.co.kr/applink/applink_goto?url=https://wwwstg.bworld.co.kr/myb/my/bill-letter/change.do" class="btn">
+        앱 열기 (유니버셜 링크)
+    </a>
 </body>
 </html>
